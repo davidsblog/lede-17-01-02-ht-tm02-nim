@@ -2,5 +2,5 @@
 #
 # perhaps save this file as /usr/local/bin/lede-tm02-nim
 #
-docker run --rm -v ${PWD}:/src lede-17-01-02-ht-tm02-nim:latest \
+docker run --rm -v ${PWD}:/src davidsblog/lede-17-01-02-ht-tm02-nim:latest \
      /bin/sh -c "cd /src; $*"
